@@ -11,7 +11,7 @@ For the registration module, VIOLET supports both [Greedy](https://sites.google.
 ### Installation
 Clone this repository!
 ```
-git clone git@github.com:Pulkit-Khandelwal/violet.git
+git clone https://github.com/Pulkit-Khandelwal/violet.git
 cd violet
 ```
 
