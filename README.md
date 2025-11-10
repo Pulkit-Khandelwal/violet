@@ -19,7 +19,7 @@ I created a Python virtual environment and installed the dependencies from [here
 
 ### Data preparation
 This step ensures that the images serving as the two modalities are coarsely aligned using affine registration. Please see the folder `preprocess`.
-Use the script `preprocess_register_affine.sh`. We perform this step using Greedy via label-based registration in our case. For other modalities where it makes sense, you may use intensity-based registration. After registration, verify that all images share the same dimensions, orientation, and resolution before proceeding. You can also enforce consistency using the script: `preprocess_orientation_resolution`.
+Use the script `preprocess_register_affine.sh`. We perform this step using Greedy via label-based registration in our case. For other modalities where it makes sense, you may use intensity-based registration. After registration, verify that all images share the same dimensions, orientation, and resolution before proceeding. You can also enforce consistency using the script: `preprocess_orientation_resolution.sh`.
 
 ### Training and testing
 Start with the training scripts located in: `/shell/train/`.
